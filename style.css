@@ -1,13 +1,53 @@
-.date{
-    padding: 10px;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    border: 3px solid #48c78e;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
-.display{
-    margin-top: 100px;
-    font-size: 1.8rem;
+body {
+  font-family: "Gluten", cursive;
 }
-#button-input{
-    margin-top: 100px;
+.hero {
+  text-align: center;
+  height: 25vh;
+  background-color: #48c78e;
+}
+.has-text-centered {
+  text-align: center;
+}
+.title {
+  padding-top: 35px;
+  color: #ffffff;
+  font-size: 3.2rem;
+}
+.subtitle {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+.date {
+  margin-top: 60px;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: 3px solid #48c78e;
+}
+.button {
+  background-color: #48c78e;
+  padding: 15px 25px;
+  border-radius: 4px;
+  color: white;
+  font-size: 1.5rem;
+}
+.button:hover {
+  cursor: pointer;
+}
+.display {
+  margin-top: 100px;
+  font-size: 1.8rem;
+}
+#button-input {
+  margin-top: 100px;
 }
